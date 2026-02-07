@@ -6,20 +6,18 @@
   box-sizing: border-box;
 }
 
+body{
+  background: url(images/bg-pattern-top-moble.svg),url(images/bg-pattern-bottom-mobile.svg);
+  font-family: 'League Spartan', sans-serif;
+}
 */___________Header___________*/
 
-header h1
-{
+header h1{
   color: hsl(300, 43%, 22%);
   font-size: 30px;
 font-weight: 700;
 line-height: 30px;
 text-align: center;
-}
-body
-{
-  background: url(images/bg-pattern-top-moble.svg);
-  font-family: 'League Spartan', sans-serif;     
 }
 /*___________Footer___________*/
 .attribution {
