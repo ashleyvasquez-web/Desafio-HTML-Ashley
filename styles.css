@@ -6,14 +6,15 @@
   box-sizing: border-box;
 }
 
-body{
-  background: url(images/bg-pattern-top-mobile.svg),url(images/bg-pattern-bottom-mobile.svg);
+body {
+  background: url(images/bg-pattern-top-mobile.svg),
+              url(images/bg-pattern-bottom-mobile.svg);
   background-repeat: no-repeat;
   font-family: 'Spartan', sans-serif;
 }
-/*___________Header___________*/
 
-header h1{
+/*___________Header___________*/
+header h1 {
   color: hsl(300, 43%, 22%);
   font-size: 30px;
   font-weight: 700;
@@ -21,11 +22,13 @@ header h1{
   text-align: center;
   margin: 0 64px 38px 64px;
 }
+
 /*___________Footer___________*/
 .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
